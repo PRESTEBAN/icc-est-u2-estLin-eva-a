@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Queue;
+
 import utils.StudentValidator;
 
 public class App {
@@ -9,6 +11,16 @@ public class App {
         System.out.println("👤 Estudiante: " + estudiante.nombre());
         System.out.println("✉️  Correo: " + estudiante.correo());
         // NO MODIFICAR HASTA AQUÍ
+
+         LogicaClasificacion lc = new LogicaClasificacion();
+
+         Queue<String> cola = new Queue<>(3);
+         cola.add("Ana");
+         cola.add("Luis");
+         cola.add("Pedro");
+
+
+        
 
     }
 }

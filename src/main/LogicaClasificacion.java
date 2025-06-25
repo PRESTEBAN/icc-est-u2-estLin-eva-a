@@ -16,6 +16,24 @@ public class LogicaClasificacion {
      */
     public Queue<String> invertirColaNombres(Queue<String> cola) {
 
+        Stack<String> personas = new Stack<>();
+
+        
+        for(int i = 0; i < cola.size(); i++){
+             personas.push(cola.element());
+        }
+
+        Stack<String> personaI = new Stack<>();
+
+        while(!personas.isEmpty()){
+            
+        }
+
+        
+
+
+
+
         return new LinkedList<>(Arrays.asList()); // Simulación de resultado
     }
 

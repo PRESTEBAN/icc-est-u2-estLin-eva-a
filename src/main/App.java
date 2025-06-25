@@ -19,7 +19,7 @@ public class App {
          cola.add("Luis");
          cola.add("Pedro");
 
-
+        lc.invertirColaNombres(cola);
         
 
     }
